@@ -231,7 +231,7 @@ echo 'echo ""' >> .bashrc
 echo 'echo -e "\033[91m      _    _       _    _  _   _____  ___  ___  _  __ " '>> .bashrc
 echo 'echo -e "\033[91m     /_\  | |     /_\  | \| | |_   _|| __|/ __|| |/ / " '>> .bashrc
 echo 'echo -e "\033[91m    / _ \ | |__  / _ \ | .` |   | |  | _|| (__ | ' c  " '>> .bashrc
-echo 'echo -e "\033[91m   /_/ \_\/____ /_/ \_\N _\_|   L_U  A___M\___|A_l\_\ " '>> .bashrc
+echo 'echo -e "\033[91m   /_/ \_\/____ /_/ \_\N _\__    __  A___M\___ A_l\_\ " '>> .bashrc
 echo 'echo "" '>> .bashrc
 echo 'mess1="$(less /etc/newadm/message.txt)" ' >> .bashrc
 echo 'echo "" '>> .bashrc
