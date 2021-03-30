@@ -208,7 +208,7 @@ if [ "$REBOOT" = "1" ]; then
 	reboot
 fi
 
-printTitle "Se procede a Instalar VPS-MX by ALANTECK PERU"
+printTitle "Se procede a Instalar ACTUALIZADO -- ALANTECK PERU"
 echo $(date)
 msg -bar2
 sleep 7s
