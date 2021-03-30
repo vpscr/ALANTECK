@@ -33,7 +33,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 ### PAQUETES PRINCIPALES 
 msg -bar
 echo -e "\033[97m"
-echo -e "\033[41m -- INSTALACION DE PAQUETES NECESARIOS PARA VPS-MX By ALAN TECK PERU-- "
+echo -e "\033[41m -- INSTALACION DE PAQUETES NECESARIOS PARA  ALAN TECK PERU-- "
 echo -e "\033[100m  PONER ATENCION A INSTALACION PARA SIGUIENTE PREGUNTA"
 echo -e "\033[97m"
 msg -bar
@@ -300,8 +300,8 @@ msg -bar
 msg -ama " Notify-BOT (Notificasion Remota)| VPS-MX By @Kalix1 "
 msg -bar
 echo -e "\033[1;94m Es una opcion para notificar cuando\n un usuario sea bloquedo o este expirado, e info de VPS."
-echo -e "\033[1;97m Deve usar el BOT de Telegram @Noti_VPSMX_Bot"
-echo -e "\033[1;92m Para sacar su ID solo Meta el comando /MENU en el BOT @USA1_BOT"
+echo -e "\033[1;97m Deve usar el BOT "
+echo -e "\033[1;92m Para sacar su ID solo Meta el comando /MENU en el BOT "
 echo -e "\033[1;92m Aparesera un pequeño menu donde aparesera su  👤 ID"
 msg -bar
 echo -e "\033[1;97mIgrese un nombre para el VPS:\033[0;37m"; read -p " " nombr
@@ -334,7 +334,7 @@ chmod +x /bin/monitor.sh
 wget -O /var/www/html/estilos.css https://raw.githubusercontent.com/VPS-MX/VPS-MX-8.0/master/ArchivosUtilitarios/Monitor-Service/estilos.css &> /dev/null
 msg -bar2
 msg -bar2
-msg -ama "     [ VPS - MX - SCRIPT \033[1;97m ❌ MOD By @ALANTOTUS94 ❌\033[1;33m ]"
+msg -ama "     [ ACTUALIZADO \033[1;97m ❌  @ALANTOTUS94 ❌\033[1;33m ]"
 msg -ama "                             [ELLA NO TE AMA ]                            "
 msg -ama "  \033[1;96m      🔰Usar Ubuntu 18 a 64 De Preferencia🔰 "
 msg -bar2
@@ -369,7 +369,7 @@ function_verify
 updatedb
 if [[ -e $HOME/lista-arq ]] && [[ ! $(cat $HOME/lista-arq|grep "KEY INVALIDA!") ]]; then
    msg -bar2
-   msg -ama "$(source trans -b pt:${id} "BEM VINDO, OBRIGADO POR UTILIZAR"|sed -e 's/[^a-z -]//ig'): \033[1;31m[VPS-MX]"
+   msg -ama "$(source trans -b pt:${id} "BEM VINDO, OBRIGADO POR UTILIZAR"|sed -e 's/[^a-z -]//ig'): \033[1;31m[ALAN TECK PERU]"
    REQUEST=$(ofus "$Key"|cut -d'/' -f2)
    [[ ! -d ${SCPinstal} ]] && mkdir ${SCPinstal}
    pontos="."
@@ -394,7 +394,7 @@ if [[ -e $HOME/lista-arq ]] && [[ ! $(cat $HOME/lista-arq|grep "KEY INVALIDA!") 
    [[ -d ${SCPinstal} ]] && rm -rf ${SCPinstal}   
    [[ ${#id} -gt 2 ]] && echo "es" > ${SCPidioma} || echo "${id}" > ${SCPidioma}
    echo -e "${cor[2]}         DESEAS INSTALAR NOTI-BOT?(Default n)"
-   echo -e "\033[1;34m  (Deves tener Telegram y el BOT: @Noti_VPSMX_Bot)"
+   echo -e "\033[1;34m  (Deves tener Telegram y el BOT: )"
    msg -bar2
    read -p " [ s | n ]: " NOTIFY   
    [[ "$NOTIFY" = "s" || "$NOTIFY" = "S" ]] && NOTIFY
