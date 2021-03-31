@@ -297,7 +297,7 @@ chmod +x ${ARQ}/$1
 
 NOTIFY () {
 msg -bar
-msg -ama " Notify-BOT (Notificasion Remota)| VPS-MX By @Kalix1 "
+msg -ama " Notify-BOT (Notificasion Remota)| ELLA NO TE AMA "
 msg -bar
 echo -e "\033[1;94m Es una opcion para notificar cuando\n un usuario sea bloquedo o este expirado, e info de VPS."
 echo -e "\033[1;97m Deve usar el BOT "
