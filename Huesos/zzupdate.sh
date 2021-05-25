@@ -198,7 +198,7 @@ echo -e "\033[93m         -- ACTULIZACION DE UBUNTU COMPLETA -- "
 wget https://raw.githubusercontent.com/vpscr/ALANTECK/main/Huesos/VPS-MX.sh -O /usr/bin/VPS-MX &> /dev/null
 chmod +x /usr/bin/VPS-MX
 if [ "$REBOOT" = "1" ]; then
-	printTitle "        SU VPS SE REINICIARA EN 20 SEGUNDOS           "
+	printTitle "        SU VPS SE REINICIARA EN 20 SEGUNDOS GRASIAS POR USAR           "
 	
 	while [ $REBOOT_TIMEOUT -gt 0 ]; do
 	   echo -ne "                         -$REBOOT_TIMEOUT-\033[0K\r"
