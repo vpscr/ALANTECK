@@ -27,7 +27,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 }
 clear
  msg -bar2
- msg -ama "     [ VPS - MX - SCRIPT \033[1;97m ❌ MOD By @ALANTOTUS94 ❌\033[1;33m ]"
+ msg -ama "     [ VPS - MX - SCRIPT \033[1;97m ❌ ALAN TECK @ALANTOTUS94 ❌\033[1;33m ]"
  echo -e  "\033[1;97m               EJECUTANDO ACTUALIZADOR  \033[1;34m "
  msg -bar2
 ## Script name
@@ -40,7 +40,7 @@ INSTALL_DIR=${INSTALL_DIR_PARENT}${SCRIPT_NAME}/
 mkdir -p "/etc/vpsmxup/"
 ## Install/update
 if [ ! -d "$INSTALL_DIR" ]; then
-	echo -e  "\033[1;97m           Instalando Paquetes Prioritarios"
+	echo -e  "\033[1;32m           INSTALANDO PAQUETES REPOSITORIO"
 	echo "           --------------------------------"
 	sleep 2
 	mkdir -p "$INSTALL_DIR_PARENT"
@@ -51,7 +51,7 @@ if [ ! -d "$INSTALL_DIR" ]; then
     wget https://raw.githubusercontent.com/vpscr/ALANTECK/main/Huesos/zzupdate.sh -O /usr/local/vpsmxup/vpsmxup.sh &> /dev/null
 	chmod +x /usr/local/vpsmxup/vpsmxup.sh
 	rm -rf /usr/bin/vpsmxup
-    wget https://raw.githubusercontent.com/vpscr/ALANTECK/main/Huesos/zzupdate.s -O /usr/bin/vpsmxup &> /dev/null
+    wgethttps://raw.githubusercontent.com/vpscr/ALANTECK/main/Huesos/zzupdate.sh -O /usr/bin/vpsmxup &> /dev/null
 	chmod +x /usr/bin/vpsmxup
 	echo -e  "\033[1;97m              Copiando Instalador Interno "
 	
