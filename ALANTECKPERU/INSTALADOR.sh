@@ -40,7 +40,7 @@ INSTALL_DIR=${INSTALL_DIR_PARENT}${SCRIPT_NAME}/
 mkdir -p "/etc/vpsmxup/"
 ## Install/update
 if [ ! -d "$INSTALL_DIR" ]; then
-	echo -e  "\033[1;32m           INSTALANDO PAQUETES REPOSITORIO"
+	echo -e  "\033[1;32m           INSTALANDO PAQUETES REPOSITORIO "
 	echo "           --------------------------------"
 	sleep 2
 	mkdir -p "$INSTALL_DIR_PARENT"
