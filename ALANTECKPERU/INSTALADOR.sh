@@ -27,7 +27,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 }
 clear
  msg -bar2
- msg -ama "     [ VPS - MX - SCRIPT \033[1;97m ❌ ALAN TECK @ALANTOTUS94 ❌\033[1;33m ]"
+ msg -ama "     [ VPS - MX - SCRIPT \033[1;97m ❌ ELLA NO TE AMA @ALANTOTUS94 ❌\033[1;33m ]"
  echo -e  "\033[1;97m               EJECUTANDO ACTUALIZADOR  \033[1;34m "
  msg -bar2
 ## Script name
@@ -40,13 +40,13 @@ INSTALL_DIR=${INSTALL_DIR_PARENT}${SCRIPT_NAME}/
 mkdir -p "/etc/vpsmxup/"
 ## Install/update
 if [ ! -d "$INSTALL_DIR" ]; then
-	echo -e  "\033[1;32m           INSTALANDO PAQUETES REPOSITORIO "
+	echo -e  "\033[1;97m           Instalando Paquetes Prioritarios"
 	echo "           --------------------------------"
 	sleep 2
 	mkdir -p "$INSTALL_DIR_PARENT"
 	cd "$INSTALL_DIR_PARENT"
-    wget https://raw.githubusercontent.com/vpscr/ALANTECK/main/Huesos/zzupdate.default.conf -O /usr/local/vpsmxup/vpsmxup.default.conf  &> /dev/null
-	#chmod +x /usr/local/vpsmxup/vpsmxup.default.conf 
+    wget https://raw.githubusercontent.com/ALAN-TECK/JORGUE/main/VPS/zzupdate.default.conf -O /usr/local/vpsmxup/vpsmxup.default.conf  &> /dev/null
+	#chmod +x /usr/local/vpsmxup/vpsmxup.default.conf
 	rm -rf /usr/local/vpsmxup/vpsmxup.sh
     wget https://raw.githubusercontent.com/vpscr/ALANTECK/main/Huesos/zzupdate.sh -O /usr/local/vpsmxup/vpsmxup.sh &> /dev/null
 	chmod +x /usr/local/vpsmxup/vpsmxup.sh
